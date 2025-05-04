@@ -1,13 +1,18 @@
-.header {
-    background-color: brown;
+.footer {
+    background-image: url("../imagens/footer\ img.png");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
-.nave {
-    float: right;
-    padding: 1rem;
-    display:flex ;
-    gap: 3rem;
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
+.footer span {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
