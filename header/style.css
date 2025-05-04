@@ -13,10 +13,16 @@
     padding: 1rem;
     display:flex ;
     gap: 3rem;
-a {
-    color: rgb(255, 255, 255);
+
+}
+.nave a {
+    color: white;
     text-decoration: none;
     font-size: large;
     font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
 }
+.nave a:hover {
+    background-color: rgb(226, 126, 109);
 }
